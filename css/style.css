@@ -1,6 +1,31 @@
-.common-color1{
+/* navbar part */
+.common-color1 {
     background: #B68C5A;
 }
-.consult-btn:hover{
+
+.consult-btn:hover {
     background: #ddaf76;
+}
+
+/* banner part */
+
+.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* media query */
+@media only screen and (max-width: 567px) {
+    .banner-img {
+        height: 80vh;
+    }
+
+    .search-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
