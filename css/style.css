@@ -2,8 +2,10 @@
 .common-color1 {
     background: #B68C5A;
 }
-
-.consult-btn:hover {
+.common-color2{
+    color: #FFFFFF;
+}
+.common-btn:hover {
     background: #ddaf76;
 }
 
@@ -38,7 +40,10 @@
     width: 70px;
     height: 70px;
 }
-
+/* footer */
+.footer-color{
+    background-color: #272727;
+}
 /* media query */
 @media only screen and (max-width: 767px) {
     .banner-img {
